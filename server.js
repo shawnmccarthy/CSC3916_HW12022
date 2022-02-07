@@ -15,6 +15,7 @@ app.post('/post', function(req,res) {
     var contentType = req.get('Content-Type')
     if (contentType) {
         console.log("Content type:" + contentType);
+        console.log(req.headers);
         res = res.type(contentType)
     }
     res.send(req.body);
