@@ -1,0 +1,14 @@
+{
+  "name": "csc3916_hw1",
+  "version": "1.0.0",
+  "description": "This is assigment 1 (echo)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shawn McCarthy",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
